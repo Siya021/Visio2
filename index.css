@@ -1,0 +1,119 @@
+body{
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+* {
+    text-transform: capitalize;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+}
+.logo img{
+    height: 30px;
+}
+.nav-links img{
+    width: 60px;
+    height: 30px;
+    justify-content: start;
+}
+.container img{
+    height: 50px;
+    width: 60px;
+}
+.container{
+    background-color: rgb(34, 34, 50);
+    color: white;
+    width: 25%;
+    padding: 20px;
+}
+.container h3{
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: capitalize !important;
+    font-size: 20px;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.container1{
+    margin-top: 50px;
+    background-color: rgb(31, 68, 137);
+    color: white;
+    width: 10%;
+    display: flex;
+   align-items: center;
+   padding-left: 2%;
+   padding-right: 3%;
+   justify-content: space-around;
+   text-align: left;
+   font-size: 12px;
+}
+
+.small{
+    height: 12px;
+    width: 10px;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    float: right;
+}
+.banner h3{
+    background-color: blue;
+    color: white;
+    width: fit-content;
+    padding: 30px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.sentence{
+    width: 50%;
+    font-size: 16px;
+}
+
+.slide-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px; 
+    width: 100%;
+}
+.slider-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.slides{
+    display: flex;
+}
+.slide{
+    display: none;
+}
+.slide.active{
+    display: block;
+}
+.block{
+    width: 80px;
+    /* height: 60px; */
+    background-color:black;
+    z-index: -1;
+    padding: 30px;
+    margin-left: 0;
+    justify-content: center;
+}
+.art-img{
+    width: 70%;
+    height: 120px;
+}
